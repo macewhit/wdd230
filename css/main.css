@@ -1,0 +1,38 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald');
+
+body {
+    margin: auto;
+    width: 50%;
+}
+
+h1 {
+    font-family: 'Montserrat';
+}
+.grid-container {
+    display: grid;
+    grid-column-gap: 8px;
+    grid: .5fr / 1fr 1fr;
+    margin-top: 1em;
+    align-content: center;
+}
+
+section, footer {
+    font-family: 'Oswald', sans-serif;
+}
+
+#lastupdated {
+    font-style: italic;
+    font-size: smaller;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        display: block;
+    }
+}

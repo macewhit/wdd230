@@ -5,6 +5,6 @@ const year = d.getFullYear();
 
 // using getElementById
 document.querySelector("#currentyear").textContent = year;
-document.getElementById("lastupdated").textContent = "Last Updated: " + document.lastModified;
+document.getElementById("lastupdated").textContent = `Last Updated: ${document.lastModified}`;
 
 

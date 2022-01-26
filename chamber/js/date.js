@@ -7,4 +7,13 @@ const year = d.getFullYear();
 document.querySelector("#currentyear").textContent = year;
 document.getElementById("lastupdated").textContent = `Last Updated: ${document.lastModified}`;
 
+// element to output to
+const datefieldUK = document.querySelector(".date");
 
+// derive the current date using a date object
+const now = new Date();
+const fulldateUK = new Intl.DateTimeFormat("en-UK", {
+	dateStyle: "full"}).format(now);
+// long, medium, short options ... try them
+
+datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;

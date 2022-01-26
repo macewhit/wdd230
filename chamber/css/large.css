@@ -1,0 +1,22 @@
+@media only screen and (min-width: 750px) {
+	header{
+        font-size: 1.2rem;
+    }
+
+    .navigation {
+		display: flex;
+        margin-left: 2vw;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+        border: none;
+	}
+
+    button {
+        display: none;
+    }
+}

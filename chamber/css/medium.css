@@ -1,15 +1,22 @@
 @media only screen and (min-width: 34em) {
     header {
-        font-size: 1em;
+        font-size: .7em;
     }
 
     .logo {
-        width: 150px;
+        width: 75px;
+    }
+
+
+    .extra {
+        display: initial;
+        font-size: .5em;
     }
 
     main {
         grid: repeat(5, 1fr) / repeat(3, 1fr);
         grid-column-gap: 10px;
+        font-size: 1.5em;
     }
 
     .hero{
@@ -43,4 +50,5 @@
         grid: 1fr / 1fr 1fr;
         grid-column-gap: 5px;
     }
+
 }

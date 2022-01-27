@@ -1,6 +1,10 @@
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 830px) {
 	header{
-        font-size: 1.2rem;
+        font-size: 1rem;
+    }
+
+	.logo {
+        width: 100px;
     }
 
 	main {
@@ -45,6 +49,7 @@
 
     .navigation {
 		display: flex;
+		position: relative;
 	}
 
 	.navigation li {
@@ -60,4 +65,9 @@
     button {
         display: none;
     }
+
+	.icons {
+		grid-column: 4/5;
+	}
+
 }

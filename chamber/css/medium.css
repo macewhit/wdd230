@@ -7,7 +7,6 @@
         width: 75px;
     }
 
-
     .extra {
         display: initial;
         font-size: .5em;
@@ -16,7 +15,7 @@
     main {
         grid: repeat(5, 1fr) / repeat(3, 1fr);
         grid-column-gap: 10px;
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .hero{

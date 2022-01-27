@@ -1,7 +1,17 @@
 @media only screen and (min-width: 830px) {
 	header{
         font-size: 1rem;
+		grid: 2fr 1fr / 1fr 1fr 2fr 1fr;
     }
+
+	nav {
+		grid-column: 3/4;
+		grid-row: 1/2;
+	}
+
+	.social {
+		grid-column: 4/5;
+	}
 
 	.logo {
         width: 100px;
@@ -66,8 +76,5 @@
         display: none;
     }
 
-	.icons {
-		grid-column: 4/5;
-	}
 
 }

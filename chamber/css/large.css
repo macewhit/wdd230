@@ -1,7 +1,7 @@
 @media only screen and (min-width: 830px) {
 	header{
         font-size: 1rem;
-		grid: 2fr 1fr / 1fr 1fr 2fr 1fr;
+		grid: 1fr / 1fr 1fr 2fr 1fr;
     }
 
 	nav {

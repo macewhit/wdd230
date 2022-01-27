@@ -154,7 +154,7 @@ nav ul li.active a, .navigation a:hover {
 
 footer {
     text-align: center;
-    padding: .5em;
+    padding: 1em;
     background-color: #355B8C;
     color: white;
 }
@@ -170,3 +170,4 @@ footer {
 .wdd-info {
     padding: .5rem;
 }
+

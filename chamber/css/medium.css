@@ -17,7 +17,8 @@
         grid-column-gap: 10px;
         font-size: 1em;
         max-width: 600px;
-        margin: 0 auto;
+        margin: 0 auto 1em auto;
+        grid-row-gap: 1em;
     }
 
     .hero{
@@ -30,10 +31,6 @@
         padding: 1.5em;
     }
 
-    .hero button {
-        font-size: 20px;
-    }
-
     .news {
         grid-column: 1/4;
         grid-row: 2/3;
@@ -43,7 +40,24 @@
         grid-column: 1/4;
         grid-row: 4/5;
         display: initial;
+        display: grid;
+        grid-auto-rows: minmax(min-content, max-content);
     }
+
+    .join button {
+        color: #221110;
+        background-color: #BF6F7E;
+        padding: 10px;
+        border-radius: 7px;
+        width:75%;
+        margin: .25em auto;
+    }
+
+    .join p {
+        padding: 0 1em 0 .5em;
+        font-weight: normal;
+    }
+
     .event {
         grid-column: 1/3;
         grid-row: 5/6;

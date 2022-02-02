@@ -45,7 +45,12 @@
 
 	.hero h2 {
 		padding: .5em;
-		font-size: 3em;
+		font-size: 2em;
+	}
+
+	.hero button {
+		margin-bottom: 1em;
+		margin-right: 1em;
 	}
 
 	.news {

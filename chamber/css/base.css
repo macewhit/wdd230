@@ -7,18 +7,6 @@ body {
     font-size: 16px;
 }
 
-main {
-    display: grid;
-    grid: repeat(5, 1fr)/ 1fr;
-    grid-row-gap: 10px;
-    margin-bottom: .5rem;
-    font-size: .7em;
-}
-
-main section {
-    background-color: #355B8C40;
-}
-
 header {
     display: grid;
     grid: 2fr 1fr / 1fr 2fr 2fr 1fr;
@@ -28,7 +16,6 @@ header {
     background-color: #011640;
     color: white;
     padding: .6em;
-    margin-bottom: .5rem;
     grid-column-gap: .8rem;
 }
 
@@ -45,6 +32,10 @@ button {
     color: white;
     border: none;
     font-size: 2em;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .extra {
@@ -119,6 +110,43 @@ nav ul li.active a, .navigation a:hover {
     background-color: #011640;
 }
 
+main {
+    display: grid;
+    grid-auto-rows: minmax(min-content, max-content);
+    grid-template-columns: 1fr;
+    grid-row-gap: 0;
+    margin-bottom: .5rem;
+    font-size: 1em;
+}
+
+main section {
+    background-color: #355B8C40;
+}
+
+main section h3 {
+    color: white;
+    background-color: #355B8C;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    margin: 0;
+}
+
+main section h4, main section p {
+    font-weight: lighter;
+}
+
+main section p a {
+    color: #011640;
+    background-color: white;
+    font-weight: normal;
+    padding: 0 .25em;
+}
+main section p a:hover {
+    background-color: #011640;
+    color: white;
+}
+
 .spotlight {
     display: grid;
     grid: 1fr 1fr / 1fr;
@@ -169,7 +197,6 @@ nav ul li.active a, .navigation a:hover {
     padding: 1em;
     color: #F26F63;
     background-color: #02012460;
-
     margin: 0;
     width: fit-content;
     height: fit-content;
@@ -182,11 +209,32 @@ nav ul li.active a, .navigation a:hover {
     justify-self: right;
     align-self: end;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 7px;
     margin-bottom: 1.5em;
     margin-right: 1.5em;
-    font-size: 12px;
+    font-size: 2em;
+    color: #221110;
     background-color: #BF6F7E;
+}
+
+.event {
+    padding: 0 1em;
+    background-color: #355B8C;
+    color:white
+}
+
+.weather, .weather h3 {
+    background-color: #011640;
+    padding: .5em;
+}
+
+.news h3 {
+    padding: 1em;
+}
+
+.news p {
+    padding: 0 1em 0 .5em;
+    font-weight: normal;
 }
 
 footer {

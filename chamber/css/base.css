@@ -7,6 +7,13 @@ body {
     font-size: 16px;
 }
 
+#banner {
+    display:none;
+    background-color: #F26F63;
+    text-align: center;
+    padding: 2rem;
+}
+
 header {
     display: grid;
     grid: 2fr 1fr / 1fr 2fr 2fr 1fr;
@@ -137,25 +144,28 @@ main section h4, main section p {
 }
 
 main section p a {
-    color: #011640;
-    background-color: white;
+    color: white;
     font-weight: normal;
     padding: 0 .25em;
 }
 main section p a:hover {
-    background-color: #011640;
-    color: white;
+    color: lightgrey;
 }
 
 .spotlight {
     display: grid;
     grid: 1fr 1fr / 1fr;
-    grid-row-gap: 2px;
+    grid-row-gap: 1em;
 }
 
-.spotlight p {
-    border: 1px dotted #355B8C;
+.spotlight div {
+    border: 4px dotted #F26F63;
+    margin: 0;
+}
 
+.spotlight div p {
+    color: black;
+    font-weight: normal;
 }
 
 #spotlight3 {
@@ -228,13 +238,19 @@ main section p a:hover {
     padding: .5em;
 }
 
+.news {
+    background-color: #011640;
+    color: white;
+}
+
 .news h3 {
     padding: 1em;
+    background-color: #011640;;
 }
 
 .news p {
-    padding: 0 1em 0 .5em;
-    font-weight: normal;
+    padding: 0 1em 0 1em;
+    font-weight: lighter;
 }
 
 footer {

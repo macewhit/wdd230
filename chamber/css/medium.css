@@ -13,7 +13,8 @@
     }
 
     main {
-        grid: repeat(5, 1fr) / repeat(3, 1fr);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 10px;
         font-size: 1em;
         max-width: 600px;

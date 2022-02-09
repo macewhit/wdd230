@@ -14,9 +14,9 @@ const datefieldUK = document.querySelector(".date");
 const now = new Date();
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 	dateStyle: "full"}).format(now);
-// long, medium, short options ... try them
 
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
 console.log(d.getDay());
 if(d.getDay() === 2 || d.getDay() === 1) {
 	const banner = document.querySelector("#banner");

@@ -24,7 +24,10 @@ header {
 
 .logo {width: 10px;}
 
-h1 {padding-left: 5px;}
+h1 {
+    padding-left: 5px;
+    justify-self: start;
+}
 
 button {
     background-color: #011640;

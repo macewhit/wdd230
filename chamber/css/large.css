@@ -9,16 +9,13 @@
 		grid-row: 1/2;
 	}
 
-	.social {
-		grid-column: 4/5;
-	}
+	.social {grid-column: 4/5;}
 
-	.logo {
-        width: 100px;
-    }
+	.logo {width: 100px;}
 
 	main {
-		grid: repeat(3, 1fr) / 1fr 2fr 1fr;
+		grid-template-columns: 1fr 2fr 1fr;
+		grid-auto-rows: minmax(min-content, max-content);
 		margin: .5em auto;
 		max-width: 800px;
 	}
@@ -65,9 +62,7 @@
 		grid-column-gap: 10px;
 	}
 
-	#spotlight3 {
-		display: initial;
-	}
+	#spotlight3 {display: initial;}
 
     .navigation {
 		display: flex;
@@ -84,9 +79,7 @@
         border: none;
 	}
 
-    .menu {
-        display: none;
-    }
+    .menu {display: none;}
 
 
 }

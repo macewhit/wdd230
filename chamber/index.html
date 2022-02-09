@@ -19,7 +19,7 @@
 <body>
     <div id="banner"> 🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m </div>
     <header>
-        <img src="images/utvalleylogo.svg" alt="Utah Valley Chamber of Commerce logo" class="logo">
+        <img src="images/utvalleylogo.webp" alt="Utah Valley Chamber of Commerce logo" class="logo">
         <h1> Utah Valley <span class="extra"><br> Chamber of Commerce </span></h1>
         <div class="social">
             <a href="https://facebook.com" target="_blank"><img src="images/facebook.svg" alt="Facebook logo" class="icon"></a>
@@ -42,7 +42,25 @@
     <main>
         <section class="hero">
             <h2> Welcome to Utah Valley </h2>
-            <img src="images/valley-photo.jpg" alt="Utah Valley cities and mountains">
+            <!-- <picture class="hero-photo"> -->
+                <!-- <source media="(max-width: 33.9em)" srcset="images/UtahValleySmall.jpg">
+                <source media="(max-width: 829px)" srcset="images/UtahValleyMedium.jpg">
+                <source media="(max-width: 1400px)" srcset="images/UtahValleyLarge.jpg">
+                <img src="images/UtahValleyLarge.jpg" alt="Utah Valley cities and mountains"> -->
+            <!-- </picture> -->
+            <figure class="hero-photo">
+                <img srcset="images/wdd230-org-Small.jpg 400w,
+                             images/wdd230-org-Medium.jpg 600w,
+                             images/wdd230-org-Large.jpg 400w"
+                     sizes="(max-width: 33em) 543px,
+                            (max-width: 829px) 600px,
+                            385px"
+                     src="images/wdd230-org-Large.jpg"
+                     alt="Utah Valley cities and mountains">
+                <!-- source media="(max-width: 33.9em)" srcset="images/wdd230-org-Small.jpg"
+                source media="(max-width: 829px)" srcset="images/wdd230-org-Medium.jpg"
+                source media="(max-width: 1400px)" srcset="images/wdd230-org-Large.jpg" -->
+            </figure>
             <button type="button" class="join-button"> Join the Chamber </button>
         </section>
         <section class="event">
@@ -52,6 +70,11 @@
         </section>
         <section class="weather">
             <h3> WEATHER </h3>
+            <img src="images/sun-image.webp" alt="sunny weather image">
+            <h4><span id="temp"> 38 </span>&#176; </h4>
+            <h5><span> Sunny </span></h5>
+            <p>Wind Speed:  <span id="speed"> 5 mph </span></p>
+            <p>Wind Chill:  <span id="windchill"></span></p>
         </section>
         <section class="join">
             <h3> JOIN </h3>
@@ -86,7 +109,7 @@
     <footer>
         <div class="top-footer">
             <section class="company">
-                <img src="images/utvalleylogo.svg" alt="Utah Valley Chamber of Commerce logo" class="logo">
+                <img src="images/utvalleylogo.webp" alt="Utah Valley Chamber of Commerce logo" class="logo">
                 <h2> Utah Valley Chamber of Commerce </h2>
                 <p> 100 E Center St, Provo, Utah 84604 </p>
             </section>
@@ -102,4 +125,5 @@
     </footer>
     <script src="js/date.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/windchill.js"></script>
 </body>

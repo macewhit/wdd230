@@ -48,19 +48,13 @@
                 <source media="(max-width: 1400px)" srcset="images/UtahValleyLarge.jpg">
                 <img src="images/UtahValleyLarge.jpg" alt="Utah Valley cities and mountains"> -->
             <!-- </picture> -->
-            <figure class="hero-photo">
-                <img srcset="images/wdd230-org-Small.jpg 400w,
-                             images/wdd230-org-Medium.jpg 600w,
-                             images/wdd230-org-Large.jpg 400w"
-                     sizes="(max-width: 33em) 543px,
-                            (max-width: 829px) 600px,
-                            385px"
-                     src="images/wdd230-org-Large.jpg"
-                     alt="Utah Valley cities and mountains">
-                <!-- source media="(max-width: 33.9em)" srcset="images/wdd230-org-Small.jpg"
-                source media="(max-width: 829px)" srcset="images/wdd230-org-Medium.jpg"
-                source media="(max-width: 1400px)" srcset="images/wdd230-org-Large.jpg" -->
-            </figure>
+
+            <picture class="hero-photo">
+                <source media="(max-width: 33.9em)" srcset="images/wdd230-org-Small.jpg">
+                <source media="(max-width: 829px)" srcset="images/wdd230-org-Medium.jpg">
+                <source media="(max-width: 1400px)" srcset="images/wdd230-org-Large.jpg">
+                <img src="images/wdd230-org-Large.jpg" alt="Utah Valley cities and mountains">
+            </picture>
             <button type="button" class="join-button"> Join the Chamber </button>
         </section>
         <section class="event">

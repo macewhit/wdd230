@@ -109,4 +109,14 @@
         grid-template-rows: minmax(min-content, max-content);
         grid-template-columns: minmax(min-content, max-content);
     }
+
+    .card img {
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .card img:hover {
+        transform: scale(1.1);
+        transition: transform 0.2s ease-in-out;
+    }
+
 }

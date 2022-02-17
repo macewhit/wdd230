@@ -86,9 +86,9 @@ nav ul li.active a, .navigation a:hover {background-color: #355B8C;}
 
 .responsive li {display: block;}
 
-.responsive ul {
-    position: absolute;
-    width: 100%;
+
+ul.responsive {
+    z-index: 1;
 }
 
 .responsive a {background-color: #011640;}
@@ -291,7 +291,7 @@ footer {
     padding: 1em;
     margin: 1em auto;
     background-color: #BF6F7E40;
-    z-index: -2;
+    /* z-index: -2; */
 }
 
 .card p {
@@ -305,7 +305,7 @@ footer {
 .discover img {
     filter: blur(0em);
     transition: filter 0.1s;
-    z-index: -1;
+    /* z-index: -1; */
   }
 
 .discover-main > p {

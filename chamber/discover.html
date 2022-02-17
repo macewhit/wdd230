@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Macy Whitney">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Utah Valley Chamber of Commerce || Home </title>
+    <meta name="description" content="The discover page for the Utah Valley Chamber of Commerce to see what you can do and learn about in Utah Valley">
+    <base href="/wdd230/chamber/">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;600;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="banner"> 🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m </div>
+    <header>
+        <img src="images/utvalleylogo.webp" alt="Utah Valley Chamber of Commerce logo" class="logo">
+        <h1> Utah Valley <span class="extra"><br> Chamber of Commerce </span></h1>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook.svg" alt="Facebook logo" class="icon"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn logo" class="icon"></a>
+        </div>
+        <nav>
+            <button class="menu"><span id="ham" class="toggle-btn"> &#9776; </span><span id="xbutton" class="hidden toggle-btn"> X </span></button>
+
+            <ul class="navigation">
+                <li><a href="index.html"> Home </a></li>
+                <li class="active"><a href="discover.html"> Discover </a></li>
+                <li><a href="#"> Directory </a></li>
+                <li><a href="#"> Join </a></li>
+                <li><a href="#"> Contact </a></li>
+            </ul>
+        </nav>
+        <div class="date"></div>
+    </header>
+
+    <main class="discover-main">
+        <h2>Discover</h2>
+        <div class="deck">
+            <div class="card discover">
+                <img src="images/placeholder.png" data-src="images/byu.jpg" width="300" height="300">
+                <h3> Visit a University </h3>
+                <p> There are multiple events, concerts, history, sports and museums at Utah Valley's universities. </p>
+            </div>
+            <div class="card discover">
+                <img src="images/placeholder.png" data-src="images/city-center-temple.jpg" width="300" height="300">
+                <h3>See the Provo City Center Temple</h3>
+                <p> What used to be Provo's historical tabernacle, has been re-constructed into a temple after a fire had destroyed the interior. </p>
+            </div>
+            <div class="card discover">
+                <img src="images/placeholder.png" data-src="images/hike.jpg" width="300" height="300">
+                <h3> Go on a Hike </h3>
+                <p> Utah Valley has so many beautiful hikes. Find one suited to your skill love and discover the beauty of our valley. </p>
+            </div>
+            <div class="card discover">
+                <img src="images/placeholder.png" data-src="images/ice-castle.jpg" width="300" height="300">
+                <h3> Discover the Ice Castles </h3>
+                <p> Located in Midway, there is a one-of-a-kind experience in its ice castles that is available to see in the early winter months.</p>
+            </div>
+            <div class="card discover">
+                <img src="images/placeholder.png" data-src="images/library.jpg" width="300" height="300">
+                <h3>Visit Your Local Library</h3>
+                <p>Check out some books, magazines, dvds, or programs at the library nearest you.</p>
+            </div>
+            <div class="card discover">
+                <img src="images/placeholder.png" data-src="images/rec-center.jpg" width="300" height="300">
+                <h3> Check out the Recreation Center </h3>
+                <p> Work out, swim, play, explore, attend classes and find something for everyone. </p>
+            </div>
+            <div class="card discover">
+                <img src="images/placeholder.png" data-src="images/restaurant.jpg" width="300" height="300">
+                <h3> Explore New Restaurants</h3>
+                <p> Utah Valley has a variety of restaurants that your palate will thank you for trying.</p>
+            </div>
+            <div class="card discover">
+                <img src="images/placeholder.png" data-src="images/skiing.jpg" width="300" height="300">
+                <h3> Hit the Slopes </h3>
+                <p> Our valley has multiple skiing and snowboarding locations with slopes of varying levels of skill. </p>
+            </div>
+            <div class="card discover">
+                <img src="images/placeholder.png" data-src="images/thanksgiving-point.jpg" width="300" height="300">
+                <h3> Find a Venue at Thanksgiving Point </h3>
+                <p> Farm Country, Ashton Gardens, the Museum of Natural Curiosity, and other venues lay ready for adventures. </p>
+            </div>
+        </div>
+        <p id="sameday"> You visited this page <span id="lastvisit"></span> days ago.</p>
+    </main>
+
+    <footer>
+        <div class="top-footer">
+            <section class="company">
+                <img src="images/utvalleylogo.webp" alt="Utah Valley Chamber of Commerce logo" class="logo">
+                <h2> Utah Valley Chamber of Commerce </h2>
+                <p> 100 E Center St, Provo, Utah 84604 </p>
+            </section>
+            <div class="contact">
+                <p class="contact-info"> utvalleychamber@gmail.com </p>
+                <p class="contact-info"> (801) 234-5678</p>
+                <p class="contact-info"> <a href="https://www.google.com/maps/place/100+E+Center+St,+Provo,+UT+84606/@40.2331166,-111.6593646,17z/data=!3m1!4b1!4m5!3m4!1s0x874d9753acfb9965:0x7736f69e891a3ab7!8m2!3d40.2331166!4d-111.6571759" target="blank"> &Rarr; Location Map</a></p>
+            </div>
+        </div>
+        <hr>
+        <div class="wdd-info">&copy;<span id="currentyear"></span> | Macy M. Whitney | Utah</div>
+        <span id="lastupdated"></span>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/daysbetween.js"></script>
+    <script src="js/lazyloading.js"></script>
+</body>

@@ -103,4 +103,10 @@
     }
 
     .contact {align-self: center;}
+
+    .discover-main {
+        display: grid;
+        grid-template-rows: minmax(min-content, max-content);
+        grid-template-columns: minmax(min-content, max-content);
+    }
 }

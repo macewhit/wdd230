@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="author" content="Macy Whitney">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Utah Valley Chamber of Commerce || Join </title>
-    <meta name="description" content="The join page for the Utah Valley Chamber of Commerce where you can learn more about our Chamber of Commerce and fill a form to join">
+    <title> Utah Valley Chamber of Commerce || Thank You! </title>
+    <meta name="description" content="A page to express gratitude for joining the Utah Valley Chamber of Commerce">
     <base href="/wdd230/chamber/">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -32,7 +32,7 @@
                 <li><a href="index.html"> Home </a></li>
                 <li><a href="discover.html"> Discover </a></li>
                 <li><a href="#"> Directory </a></li>
-                <li class="active"><a href="join.html"> Join </a></li>
+                <li><a href="join.html"> Join </a></li>
                 <li><a href="#"> Contact </a></li>
             </ul>
         </nav>
@@ -40,27 +40,6 @@
     </header>
 
     <main>
-        <h2>Join</h2>
-        <form method="get" action="thankyou.html">
-            <fieldset>
-                <legend>Applicant Information</legend>
-                <label class="top">First Name*<input type="text" name="fname" required></label>
-                <label class="top">Last Name*<input type="text" name="lname" required></label>
-                <label class="top">Business Position<input type="text" name="bptitle" pattern="[A-Za-z-\s]{7,}" title="Business Position"></label>
-                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                <label class="top">Phone*<input type="tel" name="phone" required></label>
-                <label class="top">Business Name<input type="text" name="businessname" title="Business Name"></label>
-                <label class="top"> Business Description <textarea></textarea></label>
-            </fieldset>
-            <fieldset>
-                <legend>Membership Level</legend>
-                <label class="sbs"><input type="radio" name="member" value="np">Non-profit</label>
-                <label class="sbs"><input type="radio" name="member" value="bronze">Bronze</label>
-                <label class="sbs"><input type="radio" name="member" value="silver">Silver</label>
-                <label class="sbs"><input type="radio" name="member" value="gold">Gold</label>
-            </fieldset>
-            <label><input type="hidden" id="submitdate" name="submitdate" value=""></label>
-        </form>
 
     </main>
 
@@ -83,4 +62,6 @@
     </footer>
     <script src="js/date.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/daysbetween.js"></script>
+    <script src="js/lazyloading.js"></script>
 </body>

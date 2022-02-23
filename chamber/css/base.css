@@ -390,6 +390,11 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
+form input.submitBtn:hover {
+    background-color: #BF6F7E97;
+    cursor: pointer;
+}
+
 form label.top input:required {
     border: #F26F63 solid 2px;
 }

@@ -87,4 +87,14 @@
 		grid-template-columns: minmax(min-content, max-content);
 	}
 
+	.description {
+        display: block;
+		font-size: smaller;
+    }
+
+	.join-main h2 {
+        margin-top: 1rem;
+        border-radius: 5px;
+    }
+
 }

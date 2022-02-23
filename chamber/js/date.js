@@ -22,3 +22,12 @@ if(d.getDay() === 2 || d.getDay() === 1) {
 	banner.style.display = "block";
 }
 
+//Get date and time
+var datetime = "Last Sync: " + d.getDate() + "/"
+	+ (d.getMonth()+1)  + "/"
+	+ d.getFullYear() + " || "
+	+ d.getHours() + ":"
+	+ d.getMinutes() + ":"
+	+ d.getSeconds();
+console.log(datetime)
+document.getElementById("submitdate").value = datetime

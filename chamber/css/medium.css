@@ -119,4 +119,9 @@
         transition: transform 0.2s ease-in-out;
     }
 
+    .join-main {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
 }

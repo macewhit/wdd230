@@ -7,7 +7,7 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         const prophets = jsonObject['prophets'];
-        console.table(jsonObject);
+        // console.table(jsonObject);
         prophets.forEach(displayProphets);
     });
 

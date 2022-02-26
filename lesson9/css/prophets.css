@@ -6,8 +6,9 @@ body{
     background-color: #a1a2a6;
 }
 
-h1{font-size: xx-large;}
-
+h1{
+    font-size: xx-large;
+}
 
 .cards{
     display: grid;
@@ -24,7 +25,7 @@ h1{font-size: xx-large;}
 }
 
 .cards section img {
-    max-width: 100%;
+    max-width: 60%;
 }
 
 .cards section h2 {
@@ -55,7 +56,7 @@ h1{font-size: xx-large;}
         padding: 1.5em;
         margin:0;
     }
-    .cards section h2 {
-        font-size: xx-large;
+    .cards section img {
+        max-width: 100%;
     }
 }

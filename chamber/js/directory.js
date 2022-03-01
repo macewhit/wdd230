@@ -8,7 +8,7 @@ fetch(requestURL)
     .then(function (jsonObject) {
         const businesses = jsonObject['businesses'];
         // console.table(jsonObject);
-        prophets.forEach(displayBusinesses);
+        businesses.forEach(displayBusinesses);
     });
 
 function displayBusinesses(business) {

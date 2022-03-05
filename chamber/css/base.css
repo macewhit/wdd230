@@ -10,6 +10,10 @@ body {
     padding: .5rem;
 }
 
+
+/*************
+    Header
+*************/
 header {
     display: grid;
     grid: 2fr 1fr / 1fr 2fr 2fr 1fr;
@@ -93,25 +97,26 @@ ul.responsive {
 
 .responsive a {background-color: #011640;}
 
+/*************
+    Main
+*************/
 main {
-    display: grid;
-    grid-auto-rows: minmax(min-content, max-content);
-    grid-template-columns: 1fr;
-    grid-row-gap: 0;
     margin-bottom: .5rem;
     font-size: 1em;
+    padding: 2em;
+    max-width: 800px;
+}
+
+h2 {
+    color: white;
+    background-color: #355B8C;
+    font-size: xx-large;
+    text-align: center;
+    padding: 2rem;
+    margin:0;
 }
 
 main section {background-color: #355B8C40;}
-
-main section h3 {
-    color: white;
-    background-color: #355B8C;
-    font-weight: bold;
-    font-size: 20px;
-    padding: 8px;
-    margin: 0;
-}
 
 main section h4, main section p {font-weight: lighter;}
 
@@ -122,6 +127,45 @@ main section p a {
 }
 
 main section p a:hover {color: lightgrey;}
+
+/*************
+    Footer
+*************/
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #355B8C;
+    color: white;
+}
+
+footer h3 {
+    padding-left: .5em;
+}
+
+.contact-info a {color: lightgray;}
+
+.contact-info a:hover {color: darkgray;}
+
+.wdd-info {padding: .5rem;}
+
+
+/*************
+    Home
+*************/
+
+.home-main section:not(:first-child){
+    padding: .5em;
+}
+
+.home-main section h3 {
+    color: white;
+    background-color: #355B8C;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    margin: 0;
+}
 
 .spotlight {
     display: grid;
@@ -210,12 +254,14 @@ main section p a:hover {color: lightgrey;}
 
 .weather img {
     float: left;
+    padding-top: .5em;
 }
 
 .weather h4 {
     font-size: xx-large;
     font-weight: bold;
     margin: 2px auto;
+    padding-top: .5em;
 }
 
 #temp {
@@ -243,23 +289,11 @@ main section p a:hover {color: lightgrey;}
 }
 
 .news p {
-    padding: 0 1em 0 1em;
+    padding: .5em 1em 0 1em;
     margin-top: 5px;
     font-weight: lighter;
 }
 
-footer {
-    text-align: center;
-    padding: 1em;
-    background-color: #355B8C;
-    color: white;
-}
-
-.contact-info a {color: lightgray;}
-
-.contact-info a:hover {color: darkgray;}
-
-.wdd-info {padding: .5rem;}
 
 /******************
    Discover Page
@@ -270,13 +304,6 @@ footer {
     grid-template-rows: minmax(min-content, max-content);
     grid-template-columns: minmax(min-content, max-content);
     max-width: 400px;
-}
-
-.discover-main h2 {
-    color: #355B8C;
-    font-size:xx-large;
-    padding-left: 1em;
-    margin-bottom: auto;
 }
 
 .deck {
@@ -313,16 +340,12 @@ footer {
     color: #011640;
 }
 
+/*************
+    Join Page
+*************/
+
 form {
     margin: auto .5rem;
-}
-
-.join-main h2 {
-    text-align: center;
-    padding: 2rem;
-    color: white;
-    background-color: #355B8C;
-    margin:0;
 }
 
 .description {
@@ -411,6 +434,9 @@ form label.top input:required {
     border-radius: 10px;
 }
 
+/**********************
+    Thank You Page
+**********************/
 .thankyou-main {
     grid-template-columns: 1fr;
     font-size: xx-large;
@@ -419,13 +445,13 @@ form label.top input:required {
 }
 
 .thankyou-main h2 {
-    margin-bottom: 1rem;
+    margin: 1rem;
 }
 
 .thankyou-main p {
     border: #F26F63 dotted 3px;
     padding: 1rem;
-    margin-top: 1rem;
+    margin-top: .5rem;
     font-size: medium;
 }
 
@@ -435,11 +461,16 @@ form label.top input:required {
     max-height: 400px;
 }
 
+/**********************
+    Directory Page
+**********************/
+
 .directory {
     text-align: center;
+    border: 4px #BF6F7E dotted;
 }
 
-.list-view img, .card-view>section h2 {display: none;}
+.list-view img, .card-view>section h3 {display: none;}
 
 .card-view img{
     display: block;
@@ -447,7 +478,7 @@ form label.top input:required {
     margin: auto;
 }
 
-.list-view>section h2 {display: block;}
+.list-view>section h3 {display: block;}
 
 .list-view section {
     display: grid;
@@ -473,5 +504,5 @@ form label.top input:required {
 }
 
 .list-view section:nth-child(2n) {
-    background-color: #BF6F7E;
+    background-color:#BF6F7E40;
 }

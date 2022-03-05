@@ -25,9 +25,9 @@ function displayBusinesses(business) {
   card.appendChild(image);
 
   //h2 name
-  let h2 = document.createElement('h2');
-  h2.textContent = business.name;
-  card.appendChild(h2);
+  let h3 = document.createElement('h3');
+  h3.textContent = business.name;
+  card.appendChild(h3);
 
   //p address
   let p1 = document.createElement('p');

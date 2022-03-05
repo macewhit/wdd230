@@ -483,6 +483,7 @@ form label.top input:required {
 .list-view section {
     display: grid;
     grid-template-columns: 1fr;
+    padding: .5em;
 }
 
 .card-view {
@@ -493,6 +494,10 @@ form label.top input:required {
 .card-view section {
     padding: .5em;
     margin: .5em;
+}
+
+.list-view-btn {
+    padding: .5em;
 }
 
 .list-view-btn button {

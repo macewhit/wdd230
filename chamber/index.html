@@ -57,11 +57,11 @@
                 <p> Join us for a day of golf exclusively for our Chamber members at Sleepy Ridge Golf Course, Thursday at 10 a.m. <a href="#"> more info... </a></p>
             </section>
             <section class="weather">
-                <h3> WEATHER </h3>
-                <img src="images/sun-image.webp" alt="sunny weather image">
-                <h4><span id="temp"> 38 </span>&#176; </h4>
-                <h5><span> Sunny </span></h5>
-                <p>Wind Speed:  <span id="speed"> 5 mph </span></p>
+                <h3> WEATHER* </h3>
+                <img src="" alt="" id="weathericon">
+                <h4><span id="current-temp"></span> &#176;F</h4>
+                <h5><span id="desc"></span></h5>
+                <p>Wind Speed:  <span id="speed"></span> mph</p>
                 <p>Wind Chill:  <span id="windchill"></span></p>
             </section>
             <section class="join">
@@ -111,8 +111,9 @@
         <hr>
         <div class="wdd-info">&copy;<span id="currentyear"></span> | Macy M. Whitney | Utah</div>
         <span id="lastupdated"></span>
+        <p class="attribution">*The weather information has been provided by OpenWeatherMap</p>
     </footer>
     <script src="js/date.js"></script>
     <script src="js/menu.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="js/weatherapi.js"></script>
 </body>

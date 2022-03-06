@@ -68,6 +68,10 @@
         grid-row: 5/6;
     }
 
+    .weather h4 {
+        font-size: medium;
+    }
+
     .spotlight {
         grid-column: 1/4;
         grid-row: 3/4;

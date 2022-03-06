@@ -160,11 +160,14 @@ footer h3 {
 
 .home-main section h3 {
     color: white;
-    background-color: #355B8C;
     font-weight: bold;
     font-size: 20px;
     padding: 8px;
     margin: 0;
+}
+
+.join h3 {
+    background-color: #355B8C;
 }
 
 .spotlight {
@@ -178,9 +181,15 @@ footer h3 {
     margin: 0;
 }
 
+.spotlight div h3 {
+    background-color: #355B8C;
+}
+
 .spotlight div p {
     color: black;
     font-weight: normal;
+    padding-left: .5em;
+    padding-right: .5em;
 }
 #spotlight3 {display: none;}
 
@@ -264,7 +273,7 @@ footer h3 {
     padding-top: .5em;
 }
 
-#temp {
+#current-temp {
     padding-left: 20px;
 }
 
@@ -294,6 +303,9 @@ footer h3 {
     font-weight: lighter;
 }
 
+.attribution{
+    font-size: xx-small;
+}
 
 /******************
    Discover Page
@@ -344,8 +356,15 @@ footer h3 {
     Join Page
 *************/
 
+.join-main {
+    display: grid;
+    justify-content: center;
+}
+
 form {
-    margin: auto .5rem;
+    margin: .5rem;
+    min-width: 350px;
+
 }
 
 .description {
@@ -354,7 +373,7 @@ form {
 
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #011640;
+    border: 3px dotted #BF6F7E;
     border-radius: 10px;
     padding: .5rem 2.5%;
     max-width: 25rem;

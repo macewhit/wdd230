@@ -1,4 +1,3 @@
-// const requestURL = 'https://macewhit.github.io/wdd230/chamber/data.json';
 const requestURL = "data.json"
 const cards = document.querySelector('div.cards');
 const listButton = document.querySelector("#list-btn");

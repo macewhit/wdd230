@@ -108,4 +108,16 @@
 	.card-view {
         grid-template-columns: repeat(3, 1fr);
     }
+
+	.contact-main form {
+		grid-column: 1/2;
+	}
+
+	.google-map {
+		grid-column: 2/3;
+	}
+
+	.information {
+		grid-column: 3/4;
+	}
 }

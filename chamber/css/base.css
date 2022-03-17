@@ -104,7 +104,6 @@ ul.responsive {
 main {
     margin-bottom: .5rem;
     font-size: 1em;
-    padding: 2em;
     max-width: 800px;
 }
 
@@ -387,7 +386,7 @@ form {
 }
 
 form fieldset {
-    margin: 2rem 0;
+    margin: 1rem;
     border: 3px dotted #BF6F7E;
     border-radius: 10px;
     padding: .5rem 2.5%;
@@ -551,14 +550,19 @@ form label.top input:required {
     display:grid;
     justify-items: center;
 }
-.google-map {
-    margin-top: 1.2rem;
+
+.contact-main .submitBtn {
+    margin-left: 2.2rem;
+}
+
+.information {
+    margin-bottom: 1rem;
 }
 
 .visit-us {
     background-color: #355B8C;
     color: white;
-    margin: .5rem .5rem .5rem .5rem;
+    margin-top: .5rem;
     padding: .5rem 1rem;
     border-radius: 5px;
     max-height: 300px;
@@ -571,7 +575,7 @@ form label.top input:required {
 .contact-point {
     background-color: #011640;
     color: white;
-    margin: 1rem .5rem .5rem .5rem;
+    margin-top: .5rem;
     padding: .5rem 1rem;
     border-radius: 5px;
     max-height: 300px;

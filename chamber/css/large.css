@@ -138,15 +138,21 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
+
 	.contact-main form {
 		grid-column: 1/2;
+		align-self: right;
 	}
 
 	.google-map {
-		grid-column: 2/3;
+		grid-column: 3/4;
+		margin-top: 2rem;
+		margin-left: 10px;
 	}
 
 	.information {
-		grid-column: 3/4;
+		grid-column: 2/3;
+		grid-row: 1/2;
+		margin-top: 2rem;
 	}
 }

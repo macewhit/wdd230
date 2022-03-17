@@ -14,11 +14,6 @@ fetch(requestURL)
             const i = Math.floor(Math.random()*filteredBusinesses.length);
             const business = filteredBusinesses[i];
 
-            //h3 name
-            let h3 = document.createElement('h3');
-            h3.textContent = business.name;
-            spotlight.appendChild(h3);
-
             //img
             let image = document.createElement('img');
             image.src = business.imgfile;

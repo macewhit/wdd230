@@ -64,7 +64,7 @@ nav {
     left: 0;
     padding: 0;
     font-size: 1em;
-    top: 23%;
+    top: 20%;
 }
 
 .navigation li {display: none;}
@@ -173,7 +173,7 @@ footer h3 {
 
 .spotlight {
     display: grid;
-    grid: 1fr 1fr / 1fr;
+    grid-template-columns: 1fr;
     grid-row-gap: 1em;
     text-align: center;
 }
@@ -183,8 +183,12 @@ footer h3 {
     margin: 0;
 }
 
-.spotlight div h3 {
+.spotlight h3 {
     background-color: #355B8C;
+}
+
+.home-main section .home-section-heading {
+    text-align: left;
 }
 
 .spotlight div p {
@@ -271,14 +275,19 @@ footer h3 {
 
 .weather img {
     float: left;
-    padding-top: .5em;
+    padding-top: 1em;
+    width: 80px;
 }
 
 .weather h4 {
-    font-size: xx-large;
+    font-size: 24px;
     font-weight: bold;
-    margin: 2px auto;
-    padding-top: .5em;
+    padding-top: .1em;
+}
+
+.weather h4, .weather h5 {
+    text-align: right;
+    padding-right: 60px;
 }
 
 #current-temp {
@@ -286,13 +295,11 @@ footer h3 {
 }
 
 .weather h5 {
-    text-align: center;
     font-weight: 500;
     font-size: medium;
     border-bottom: 2px white solid;
-    margin: 0;
-    margin-top: 13px;
-    padding-bottom: 5px;
+    margin-top: -20px;
+    padding-bottom: 20px;
 }
 
 .news {

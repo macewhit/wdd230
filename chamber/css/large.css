@@ -32,6 +32,16 @@
 		grid-column: 1/2;
 	}
 
+	.weather h4 {
+		font-size: xx-large;
+		margin-block-end: 10px;
+		margin-block-start: 10px;
+	}
+
+	.weather h4, .weather h5 {
+        padding-right: 20px;
+    }
+
 	.join {
 		grid-row: 3/4;
 		grid-column: 1/2;
@@ -61,18 +71,27 @@
 	.spotlight {
 		grid-row: 1/4;
 		grid-column: 3/4;
-		grid: repeat(3, 1fr) / 1fr;
-		grid-column-gap: 10px;
+		grid-template-rows: minmax(min-content, max-content);
+		grid-template-columns: 1fr;
+	}
+
+	.spotlight h3 {
+		align-self: start;
+	}
+
+	.spotlight-item {
+		grid-column: 1/2;
 	}
 
 	.spotlight img {
 		width: 100px;
-		padding-top: .75rem;
+		margin-top: .75rem;
+		text-align: center;
 	}
 
 	.spotlight-item p {
-		margin-block-start: .25rem;
-		margin-block-end: .25rem;
+		margin-block-start: .5rem;
+		margin-block-end: .5rem;
 
 	}
 

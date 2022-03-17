@@ -7,5 +7,4 @@ var datetime = "Last Sync: " + d.getDate() + "/"
 	+ d.getHours() + ":"
 	+ d.getMinutes() + ":"
 	+ d.getSeconds();
-// console.log(datetime)
 document.getElementById("submitdate").value = datetime;

@@ -3,7 +3,6 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=Provo&units=im
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
     const t = jsObject.main.temp.toFixed(1);
     document.querySelector('#current-temp').textContent = t;
 

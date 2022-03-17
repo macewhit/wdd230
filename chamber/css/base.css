@@ -243,18 +243,32 @@ footer h3 {
     font-size: 2em;
 }
 
-.hero button {
+.hero .button-link {
     grid-column: 2/3;
     grid-row: 2/3;
     justify-self: right;
     align-self: end;
-    padding: 10px;
-    border-radius: 7px;
     margin-bottom: 1.5em;
     margin-right: 1.5em;
+}
+
+.button-link {
+    padding: 12px;
+    border-radius: 7px;
     font-size: 2em;
     color: #221110;
     background-color: #BF6F7E;
+    text-decoration: none;
+}
+
+.button-link:hover {
+    background-color: #c4959d;
+    cursor: pointer;
+}
+
+.join .button-link {
+    margin: 1rem;
+    text-align: center;
 }
 
 .event {

@@ -141,7 +141,7 @@
 
 	.contact-main form {
 		grid-column: 1/2;
-		align-self: right;
+		justify-self: right;
 	}
 
 	.google-map {

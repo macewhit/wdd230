@@ -1,10 +1,10 @@
-const d = new Date();
+const date = new Date();
 
 //Get date and time
-var datetime = "Last Sync: " + d.getDate() + "/"
-	+ (d.getMonth()+1)  + "/"
-	+ d.getFullYear() + " || "
-	+ d.getHours() + ":"
-	+ d.getMinutes() + ":"
-	+ d.getSeconds();
+var datetime = "Last Sync: " + date.getDate() + "/"
+	+ (date.getMonth()+1)  + "/"
+	+ date.getFullYear() + " || "
+	+ date.getHours() + ":"
+	+ date.getMinutes() + ":"
+	+ date.getSeconds();
 document.getElementById("submitdate").value = datetime;

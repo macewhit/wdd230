@@ -485,8 +485,8 @@ form label.top input:required {
     Thank You Page
 **********************/
 .thankyou-main {
+    display: grid;
     grid-template-columns: 1fr;
-    font-size: xx-large;
     padding: 1rem;
     justify-items: center;
 }
@@ -503,8 +503,8 @@ form label.top input:required {
 }
 
 .thankyou-main img {
+    align-self: center;
     max-width: 400px;
-    float: right;
     max-height: 400px;
 }
 

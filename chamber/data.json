@@ -28,7 +28,7 @@
         "name": "American Red Cross",
         "address": "1190 Spring Creek Place , B-1, \nSpringville, UT, 84663",
         "phone": "(801) 818-1776",
-        "website": "https://www.redcross.org/local/utah.html",
+        "website": "https://redcross.org/local/utah.html",
         "imgfile": "images/RedCrossLogo.svg",
         "membship": "Non-profit"
       },
@@ -36,7 +36,7 @@
         "name": "Floss Dental",
         "address": "50 N Main St, \nLindon, UT 84042",
         "phone": "(801) 698-3384",
-        "website": "https://flossdental.com",
+        "website": "https://flossdental.com/",
         "imgfile": "images/FlossDental.svg",
         "membship": "Bronze"
       },
@@ -68,7 +68,7 @@
         "name": "Provo Beach Resort",
         "address": "4801 N. University Ave., #210, \nProvo UT 84604",
         "phone": "(801) 224-5001",
-        "website": "https://www.provobeachresort.com",
+        "website": "https://provobeachresort.com/",
         "imgfile": "images/ProvoBeachResort.svg",
         "membship": "Gold"
       },
@@ -76,7 +76,7 @@
         "name": "Sundance Mountain Resort",
         "address": "8841 N. Alpine Loop Rd, \nSundance, UT 84604",
         "phone": "(801) 225-4107",
-        "website": "https://www.sundanceresort.com/",
+        "website": "https://sundanceresort.com/",
         "imgfile": "images/SundanceLogo.svg",
         "membship": "Gold"
       },
@@ -92,7 +92,7 @@
         "name": "Math Xpress",
         "address": "1774 N University Prkwy, \nProvo, UT 84604",
         "phone": "(801) 123-5813",
-        "website": "mathxpress.com",
+        "website": "https://mathxpress.com/",
         "imgfile": "images/MathxLogo.svg",
         "membship": "Bronze"
       }

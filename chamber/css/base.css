@@ -253,8 +253,8 @@ footer h3 {
 }
 
 .button-link {
-    padding: 12px;
-    border-radius: 7px;
+    padding: .15rem 1.5rem;
+    border-radius: 1rem;
     font-size: 2em;
     color: #221110;
     background-color: #BF6F7E;

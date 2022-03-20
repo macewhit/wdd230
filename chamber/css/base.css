@@ -199,6 +199,7 @@ footer h3 {
 
 .spotlight img {
     width: 150px;
+    min-height: 100px;
     padding-top: .75rem;
 }
 
@@ -255,7 +256,7 @@ footer h3 {
 .button-link {
     padding: .15rem 1.5rem;
     border-radius: 1rem;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #221110;
     background-color: #BF6F7E;
     text-decoration: none;

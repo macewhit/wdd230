@@ -520,7 +520,8 @@ form label.top input:required {
 .card-view img{
     display: block;
     width: 70%;
-    margin: auto;
+    margin: .5rem auto;
+    min-height: 200px;
 }
 
 .list-view>section h3 {display: block;}
@@ -543,6 +544,11 @@ form label.top input:required {
 .card-view section {
     padding: .5em;
     margin: .5em;
+    display: grid;
+}
+
+.card-view section p {
+    align-self: end;
 }
 
 .list-view-btn {

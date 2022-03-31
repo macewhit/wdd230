@@ -1,0 +1,63 @@
+@media only screen and (min-width: 34em) {
+
+/*******
+Home
+*******/
+
+    .hero {
+        margin: .25em auto;
+    }
+    .cta {font-size: xx-large;}
+
+    .hero:hover .cta {color: white;}
+
+    h2 {
+        font-size: 3em;
+    }
+
+    .spotlight {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        padding-bottom: 1.5em;
+    }
+
+    .spotlight img{
+        grid-column: 1/2;
+        grid-row: 2/4;
+        align-self: center;
+    }
+
+    .spotlight h4 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin-bottom: .5em;
+    }
+    .spotlight p {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        align-self: center;
+        padding-right: .5em;
+        padding-top: 1em;
+    }
+
+
+/*******
+Footer
+*******/
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 15px;
+        align-items: center;
+
+    }
+
+    .contact {
+        justify-self: left;
+        text-align: left;
+        padding-left: 20px;
+    }
+    .social {align-self: center;}
+
+    .attribution {grid-column: 1/4;}
+}

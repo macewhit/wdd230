@@ -60,4 +60,32 @@ Footer
     .social {align-self: center;}
 
     .attribution {grid-column: 1/4;}
+
+/***********
+	Temple Page
+	***********/
+	.deck section h2 {
+		font-size: 2em;
+	}
+
+    .deck {
+        max-width: 100%;
+        background-color: #bf705e;
+        padding: .75em;
+    }
+
+    .deck section {
+        margin: 2em auto;
+        max-width: 375px;
+    }
+
+    #morebtn:hover {
+        z-index: 2;
+        background: rgb(217,164,4);
+        background: linear-gradient(145deg, rgba(217,164,4,1) 24%, rgba(217,41,41,1) 49%, rgba(89,2,2,1) 78%);
+        color: white;
+        transition: .5s;
+        cursor: pointer;
+    }
+
 }

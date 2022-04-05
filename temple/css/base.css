@@ -376,3 +376,78 @@ Thank You
     width: 350px;
     justify-self: center;
 }
+
+
+/***********
+Services
+***********/
+.subpages {
+    display: grid;
+}
+
+.overlay {
+    justify-self: center;
+    width: 100%;
+    display: grid;
+    grid: 1fr 1fr / 1fr 1fr;
+    margin: 1em;
+}
+
+.overlay:hover {
+    background: rgb(217,164,4);
+    background: linear-gradient(145deg, rgba(217,164,4,1) 24%, rgba(217,41,41,1) 49%, rgba(89,2,2,1) 78%);
+}
+
+.overlay:hover p {
+    color: white;
+    transition: .5s;
+}
+
+.overlay-photo {
+    justify-self: stretch;
+    grid-column: 1/3;
+    grid-row: 1/3;
+    z-index: -1;
+    object-fit: cover;
+    height: 100%;
+}
+
+.subpages a p {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    z-index: 1;
+    padding: .5rem;
+    align-self: flex-end;
+    color: #d9a404;
+    background-color: #59020280;
+    border-radius: 8px;
+    font-size: xx-large;
+}
+
+/* .services h2 {
+    color: white;
+} */
+
+.amenities {
+    background-color: #d9a404;
+    color: black;
+    padding: .5em;
+    margin: .5em;
+    max-width: 60%;
+    text-align: left;
+}
+
+ul {
+    list-style-image: url('../images/list-arrow.svg');
+}
+
+ul li::marker {
+    font-size: x-large;
+}
+
+.services img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+

@@ -147,5 +147,10 @@
         max-width: 400px;
     }
 
-
+    /********
+    Services
+    ********/
+    .subpages {
+        grid-column-gap: 40px;
+    }
 }

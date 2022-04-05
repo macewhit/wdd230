@@ -424,9 +424,9 @@ Services
     font-size: xx-large;
 }
 
-/* .services h2 {
-    color: white;
-} */
+.services h2 {
+    color: Black;
+}
 
 .amenities {
     background-color: #d9a404;
@@ -445,9 +445,42 @@ ul li::marker {
     font-size: x-large;
 }
 
-.services img {
+.services img, .reception-photo img {
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+/*********
+Reception
+*********/
+
+
+
+.packages {
+    margin-right: 30%;
+    padding: .5em;
+    margin-bottom: 1.5em;
+}
+
+.food {
+    background-color: #bf705e;
+    color: black;
+    padding: .5em;
+    margin-bottom: 1.5em;
+}
+
+.food h2 {
+    color: black;
+}
+
+.food-limit {
+    font-size: smaller;
+}
+
+.contact-events {
+    background-color: #d9a404;
+    color: #590202;
+    padding: 1em;
 }
 

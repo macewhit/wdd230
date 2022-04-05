@@ -123,4 +123,35 @@ Footer
     .services ul {
         grid-row: 2/3
     }
+
+    /***********
+	Services
+	***********/
+    .reception-main {
+        display: grid;
+        justify-content: center;
+        grid-row-gap: 10px;
+        grid-column-gap: 5px;
+        align-items: center;
+    }
+
+    .reception-photo img {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .packages {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin: .25em auto;
+    }
+
+    .food {
+        grid-column: 1/3;
+        grid-row: 2/3;
+        margin-left: 30%;
+    }
+    .contact-events {
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
 }

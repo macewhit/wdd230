@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Temple Inn & Suites || Reception </title>
         <meta name="description" content="The page to learn more about reception information at the Temple Inn & Suites">
-        <!-- <base href="/wdd230/temple/"> -->
+        <base href="/wdd230/temple/">
         <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link href="css/base.css" rel="stylesheet">
@@ -27,8 +27,8 @@
                 <nav class="">
                     <ul class="navigation hidden-left">
                         <li><a href="index.html"> HOME </a></li>
-                        <li class="active"><a href="temple.html"> TEMPLES </a></li>
-                        <li><a href="index.html"><img src="images/temple-inn-logo.svg" alt="Temple Inn & Suites logo" class="logo"></a></li>
+                        <li><a href="temple.html"> TEMPLES </a></li>
+                        <li class="logo-center"><a href="index.html"><img src="images/temple-inn-logo.svg" alt="Temple Inn & Suites logo" class="logo"></a></li>
                         <li><a href="reservation.html"> RESERVATION </a></li>
                         <li><a href="services.html"> SERVICES </a></li>
                     </ul>
@@ -40,7 +40,26 @@
         </header>
         <main>
             <h1>Reception & Events</h1>
-
+            <div class="reception-main">
+                <picture class="reception-photo">
+                    <source media="(max-width: 33.9em)" srcset="images/flowers-small.jpg">
+                    <source media="(max-width: 1400px)" srcset="images/flowers.jpg">
+                    <img src="images/flowers.jpg" alt="Flowers at reception image">
+                </picture>
+                <section class="packages">
+                    <h2>Worry-free Packages Available</h2>
+                    <p>Flowers? Centerpieces? Chair and table set up? These are the last things you should worry about on your special day. Let us take care of it for you!</p>
+                </section>
+                <section class="food">
+                    <h2>Feeding a Crowd</h2>
+                    <p>With access to the kitchens, you are welcome to use your own resources to provide food for your guests. Don't let the opportunity slip to have exquisite meals made by top chefs.</p>
+                    <p class="food-limit">*Limit of 400 people</p>
+                </section>
+                <section class="contact-events">
+                    <h3>EMAIL US NOW TO LEARN MORE ABOUT OUR PACKAGE PRICING!</h3>
+                    <p>contact@templeinnsuite.com</p>
+                </section>
+            </div>
         </main>
         <footer>
             <div class="contact">

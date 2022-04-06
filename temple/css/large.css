@@ -5,29 +5,17 @@
     /******
     Header
     ******/
-    .logo-mobile {
-        display: none;
-    }
+    .logo-mobile {display: none;}
 
-    .logo-center {
-        display: block;
-    }
+    .logo-center {display: block;}
 
-    .logo {
-        padding-left: 10px;
-    }
+    .logo {padding-left: 10px;}
 
-    .navigation img {
-        width: 100%;
-    }
+    .navigation img {width: 100%;}
 
-    button.menu {
-        display: none;
-    }
+    button.menu {display: none;}
 
-    header {
-        grid-template-columns: repeat(3, 1fr);
-    }
+    header {grid-template-columns: repeat(3, 1fr);}
 
     .navigation,.navigation.hidden-left {
         position: relative;
@@ -40,21 +28,16 @@
         transition: none;
     }
 
-    .navigation a {
-        color: #590202;
-    }
+    .navigation a {color: #590202;}
 
-    .top-left {
-        display: block;
-    }
+    .top-left {display: block;}
+
     .top-left img {
         max-width: 30px;
         padding: 0.25em;
     }
 
-    .navigation li {
-        display: block;
-    }
+    .navigation li {display: block;}
 
     nav ul li.active a {
         background-color: transparent;
@@ -75,16 +58,11 @@
     /*****
     Home
     *****/
-    h1 {
-        padding-left: 2em;
-    }
+    h1 {padding-left: 2em;}
 
-    .logo-center .logo {
-        min-width: 230px;
-    }
-    .spotlight {
-        margin-right: 40%;
-    }
+    .logo-center .logo {min-width: 230px;}
+
+    .spotlight {margin-right: 40%;}
 
     .spotlight img {
         justify-self: right;
@@ -92,26 +70,18 @@
         padding-left: 1em;
     }
 
-    .spotlight h3 {
-        justify-self: center;
-    }
+    .spotlight h3 {justify-self: center;}
 
-    .spotlight h4, .spotlight p {
-        text-align: left;
-    }
+    .spotlight h4, .spotlight p {text-align: left;}
 
-    .spotlight h3 {
-        padding-left: 2em;
-    }
+    .spotlight h3 {padding-left: 2em;}
 
     .services {
         margin-left: 50%;
         right: 0;
     }
 
-    .services h3 {
-        text-align: left;
-    }
+    .services h3 {text-align: left;}
 
     /*******
     Footer
@@ -120,13 +90,9 @@
     /***********
 	Reservation Page
 	***********/
-    form {
-        min-width: 400px;
-    }
+    form {min-width: 400px;}
 
-    form fieldset {
-        max-width: 20em;
-    }
+    form fieldset {max-width: 20em;}
 
 
     /**********
@@ -147,9 +113,7 @@
     /********
     Services
     ********/
-    .subpages {
-        grid-column-gap: 40px;
-    }
+    .subpages {grid-column-gap: 40px;}
 
     /**********
     Suites
@@ -161,15 +125,9 @@
         margin: 1em;
     }
 
-    .suites-bed img {
-        max-width: 900px;
-    }
+    .suites-bed img {max-width: 900px;}
 
-    .suite-info {
-        grid-row: 1/2;
-    }
+    .suite-info {grid-row: 1/2;}
 
-    .contact-us {
-        grid-row: 1/2;
-    }
+    .contact-us {grid-row: 1/2;}
 }

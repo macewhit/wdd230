@@ -23,6 +23,7 @@ function displayTemples(temple) {
   //button like
   let likebtn = document.createElement('button');
   const likeImg = document.createElement('img');
+  likeImg.setAttribute('alt', 'like button image');
 
   likebtn.appendChild(likeImg);
   if(localStorage.getItem(temple.name) == "true") {
@@ -33,6 +34,7 @@ function displayTemples(temple) {
     }
 
   likebtn.setAttribute('id', 'like');
+  likebtn.setAttribute('value', "like-btn");
   likebtn.addEventListener("click", () => {
         if(localStorage.getItem(temple.name) == "true") {
           localStorage.setItem(temple.name, "false");
@@ -73,6 +75,7 @@ function displayTemples(temple) {
   let morebtn = document.createElement('button');
   morebtn.textContent = "See more...";
   morebtn.setAttribute('id', 'morebtn');
+  morebtn.setAttribute('value', "more-btn");
 
   card.appendChild(morebtn);
 

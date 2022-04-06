@@ -21,9 +21,7 @@ h1, h2, h3 {
     font-family: 'Abril Fatface', Georgia, Times, 'Times New Roman', serif;
 }
 
-h1 {
-    text-align: left;
-}
+h1 {text-align: left;}
 
 .logo {
     min-width: 100px;
@@ -131,9 +129,7 @@ main {
     justify-content: center;
 }
 
-h1 {
-    color: #590202;
-}
+h1 {color: #590202;}
 
 h2 {color: #D92929;}
 
@@ -159,9 +155,7 @@ h2 {color: #D92929;}
     z-index: -1;
 }
 
-.hero-photo img, .hero-photo picture {
-    width: 100%;
-}
+.hero-photo img, .hero-photo picture {width: 100%;}
 
 .cta {
     grid-column: 2/3;
@@ -179,9 +173,7 @@ h2 {color: #D92929;}
     margin-bottom: 1.5em;
 }
 
-.services ul {
-    text-align: left;
-}
+.services ul {text-align: left;}
 
 .services a {color: white;}
 
@@ -244,9 +236,7 @@ h2 {color: #D92929;}
     padding: 1em;
 }
 
-.temp-and-humid p {
-    font-size: small;
-}
+.temp-and-humid p {font-size: small;}
 
 .icon-and-desc {
     justify-self:right;
@@ -293,9 +283,7 @@ Temple Page
     border: solid 1px #bf705e;
 }
 
-.deck > section:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
-  }
+.deck > section:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);}
 
 .deck section img {
     grid-column: 1/3;
@@ -327,12 +315,9 @@ Temple Page
     margin: .3em;
 }
 
-.website-link {color: #bf705e;}
+.website-link {color: #590202;}
 
-.website-link:hover {
-    color: #590202;
-    border-bottom: solid 1px #bf705e;
-}
+.website-link:hover {border-bottom: solid 1px #bf705e;}
 
 /**************
   Reservation
@@ -343,10 +328,7 @@ Temple Page
     justify-content: center;
 }
 
-form {
-    margin: .5rem auto;
-
-}
+form {margin: .5rem auto;}
 
 form fieldset {
     margin: 1rem;
@@ -416,13 +398,9 @@ form input.submitBtn:hover {
     cursor: pointer;
 }
 
-form label.top input:required {
-    border: #D92929 solid 3px;
-}
+form label.top input:required {border: #D92929 solid 3px;}
 
-.level {
-    font-weight: bold;
-}
+.level {font-weight: bold;}
 
 
 /************
@@ -443,9 +421,7 @@ Thank You
 /***********
 Services
 ***********/
-.subpages {
-    display: grid;
-}
+.subpages {display: grid;}
 
 .overlay {
     justify-self: center;
@@ -486,9 +462,7 @@ Services
     font-size: xx-large;
 }
 
-.services h2 {
-    color: Black;
-}
+.services h2 {color: Black;}
 
 .amenities {
     background-color: #d9a404;
@@ -499,9 +473,7 @@ Services
     text-align: left;
 }
 
-ul {
-    list-style-image: url('../images/list-arrow.svg');
-}
+ul {list-style-image: url('../images/list-arrow.svg');}
 
 ul li::marker {
     font-size: x-large;
@@ -533,9 +505,7 @@ Reception
     margin-bottom: 1.5em;
 }
 
-.food h2 {
-    color: black;
-}
+.food h2 {color: black;}
 
 .food-limit {font-size: smaller;}
 

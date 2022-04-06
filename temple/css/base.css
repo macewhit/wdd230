@@ -161,21 +161,21 @@ h2 {color: #D92929;}
     grid-column: 2/3;
     grid-row: 1/2;
     z-index: 1;
-    color: #d9a404;
+    color: #D92929;
     padding-top: 1em;
 }
 
 .services{
     margin-left: 30%;
     background-color: #bf705e;
-    color: white;
+    color: black;
     padding: .5em;
     margin-bottom: 1.5em;
 }
 
 .services ul {text-align: left;}
 
-.services a {color: white;}
+.services a {color: black;}
 
 .services a:hover {
     color: #d9d9d9;
@@ -477,7 +477,6 @@ ul {list-style-image: url('../images/list-arrow.svg');}
 
 ul li::marker {
     font-size: x-large;
-    background-color: white;
 }
 
 .services img, .reception-photo img {

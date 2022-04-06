@@ -116,7 +116,7 @@ footer {
 }
 
 .copyright {
-    padding: 2em auto;
+    padding: 2em .5em;
     font-size: small;
 }
 
@@ -505,6 +505,7 @@ ul {
 
 ul li::marker {
     font-size: x-large;
+    background-color: white;
 }
 
 .services img, .reception-photo img {

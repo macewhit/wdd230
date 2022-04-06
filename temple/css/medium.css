@@ -125,7 +125,7 @@ Footer
     }
 
     /***********
-	Services
+	Events
 	***********/
     .reception-main {
         display: grid;
@@ -153,5 +153,15 @@ Footer
     .contact-events {
         grid-column: 1/3;
         grid-row: 3/4;
+    }
+
+
+
+    /**********
+    Suites
+    **********/
+
+    .contact-us form {
+        max-width: 410px;
     }
 }

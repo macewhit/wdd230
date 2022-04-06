@@ -71,9 +71,6 @@
     /*******
     Main
     *******/
-    main {
-
-    }
 
     /*****
     Home
@@ -152,5 +149,27 @@
     ********/
     .subpages {
         grid-column-gap: 40px;
+    }
+
+    /**********
+    Suites
+    **********/
+    .suite-type {
+        display: grid;
+        grid-column-gap: 15px;
+        padding: 1em;
+        margin: 1em;
+    }
+
+    .suites-bed img {
+        max-width: 900px;
+    }
+
+    .suite-info {
+        grid-row: 1/2;
+    }
+
+    .contact-us {
+        grid-row: 1/2;
     }
 }

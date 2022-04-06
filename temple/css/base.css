@@ -281,8 +281,7 @@ Temple Page
 }
 
 form {
-    margin: .5rem;
-    min-width: 350px;
+    margin: .5rem auto;
 
 }
 
@@ -474,13 +473,33 @@ Reception
     color: black;
 }
 
-.food-limit {
-    font-size: smaller;
-}
+.food-limit {font-size: smaller;}
 
 .contact-events {
     background-color: #d9a404;
     color: #590202;
     padding: 1em;
 }
+
+
+/********
+Suites
+********/
+
+.suite-info {
+    margin: 0 auto;
+    background-color: #bf705e;
+    padding: .5em;
+    text-align: left;
+}
+
+.suite-info ul {text-align: left;}
+
+.suite-info h2 {color: black;}
+
+.suite-pic img {
+    width: 100%;
+    object-fit: cover;
+}
+
 

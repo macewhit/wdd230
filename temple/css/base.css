@@ -209,7 +209,70 @@ h2 {color: #D92929;}
 
 .spotlight h4 {
     text-transform: uppercase;
-    font-weight: lighter
+    font-weight: lighter;
+    align-self: end;
+    font-size: larger;
+    color: #d9a404;
+}
+
+.weather {
+    display: grid;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.weather h3 {
+    color: #D92929;
+    grid-column: 1/4;
+}
+
+.current-weather {
+    justify-self: center;
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 0.5em;
+    column-gap: 1em;
+    border: #d9a404 solid 1px;
+    background-color: #bf705e;
+    max-width: 350px;
+}
+
+.temp-and-humid {
+    justify-self:left;
+    padding: 1em;
+}
+
+.temp-and-humid p {
+    font-size: small;
+}
+
+.icon-and-desc {
+    justify-self:right;
+    font-size: smaller;
+}
+
+.current-weather h4 {
+    grid-column: 1/2;
+    font-size: 3.5em;
+    color: #590202;
+    margin: 0;
+}
+
+.three-day {
+    grid-row: 3/4;
+    background-color: #d9a404;
+    padding: .5em;
+    box-shadow: 2px 2px 2px #590202;
+    border: 1px solid #590202;
+}
+
+#alert-message {
+    display: none;
+    background-color: #D92929;
+    color: white;
+    padding: 1em;
 }
 
 /***********

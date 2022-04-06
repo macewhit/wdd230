@@ -17,6 +17,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
     </head>
     <body>
+        <div id="alert-message">
+            <span id="message"></span>
+            <span id="close-btn"> &#10006;</span>
+        </div>
         <header>
             <div class="top-left">
                 <a href="https://facebook.com" target="_blank"><img src="images/facebook.svg" alt="Facebook logo" class="icon"></a>
@@ -68,8 +72,35 @@
             </div>
 
             <div class="weather">
-                Current weather: temp, condition descrition and humidity
-                3 day forecast of day temperature
+                <h3> WEATHER* </h3>
+                <div class="current-weather">
+                    <div class="temp-and-humid">
+                        <p>Humidity: <span id="humid"></span>%</p>
+                        <h4><span id="current-temp"></span>&#176;</h4>
+
+                    </div>
+                    <div class="icon-and-desc">
+                        <img src="#" alt="" id="weathericon">
+                        <p><span id="desc"></span></p>
+
+                    </div>
+
+                </div>
+                <div class="three-day">
+                    <img src="#" alt="">
+                    <h4><span class="current-temp"></span> &#176;F</h4>
+                    <p><span class="day"></span></p>
+                </div>
+                <div class="three-day">
+                    <img src="#" alt="">
+                    <h4><span class="current-temp"></span> &#176;F</h4>
+                    <p><span class="day"></span></p>
+                </div>
+                <div class="three-day">
+                    <img src="#" alt="">
+                    <h4><span class="current-temp"></span> &#176;F</h4>
+                    <p><span class="day"></span></p>
+                </div>
             </div>
         </main>
         <footer>
@@ -93,4 +124,5 @@
     <script src="js/menu.js"></script>
     <script src="js/spotlight.js"></script>
     <script src="js/date.js"></script>
+    <script src="js/weather.js"></script>
 </html>
